@@ -29,6 +29,6 @@ int AmountEven(int[] array)
 
 Console.WriteLine("Введите количество элементов массива");
 int col = Convert.ToInt32(Console.ReadLine());
-int[] massiv = CreateMassive(col);
+int[] array = CreateMassive(col);
 Console.WriteLine();
-Console.WriteLine($"Количество четных чисел в массиве={AmountEven(massiv)}");
+Console.WriteLine($"Количество четных чисел в массиве={AmountEven(array)}");
